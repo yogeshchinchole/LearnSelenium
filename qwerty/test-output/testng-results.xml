@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="304" started-at="2019-05-01T14:15:26Z" finished-at="2019-05-01T14:15:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="304" started-at="2019-05-01T14:15:26Z" finished-at="2019-05-01T14:15:26Z">
+      <class name="qwerty.testme">
+        <test-method status="PASS" signature="outme()[pri:0, instance:qwerty.testme@457e2f02]" name="outme" is-config="true" duration-ms="93" started-at="2019-05-01T14:15:26Z" finished-at="2019-05-01T14:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- outme -->
+        <test-method status="PASS" signature="testme1()[pri:0, instance:qwerty.testme@457e2f02]" name="testme1" duration-ms="46" started-at="2019-05-01T14:15:26Z" finished-at="2019-05-01T14:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testme1 -->
+        <test-method status="PASS" signature="outmeafter()[pri:0, instance:qwerty.testme@457e2f02]" name="outmeafter" is-config="true" duration-ms="15" started-at="2019-05-01T14:15:26Z" finished-at="2019-05-01T14:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- outmeafter -->
+      </class> <!-- qwerty.testme -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

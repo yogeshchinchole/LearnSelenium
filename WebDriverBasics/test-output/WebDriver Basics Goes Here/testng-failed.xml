@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [WebDriver Basics Goes Here]">
+  <test thread-count="5" name="WebDriver Basics Test Will Be Executed here(failed)" parallel="methods">
+    <classes>
+      <class name="WebDriverBasics.NewTest">
+        <methods>
+          <include name="initiatebrowser"/>
+          <include name="closeme"/>
+          <include name="starthere"/>
+        </methods>
+      </class> <!-- WebDriverBasics.NewTest -->
+    </classes>
+  </test> <!-- WebDriver Basics Test Will Be Executed here(failed) -->
+</suite> <!-- Failed suite [WebDriver Basics Goes Here] -->

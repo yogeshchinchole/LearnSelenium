@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WebDriver Basics Goes Here" verbose="1">
+<!-- Test Begins Here -->
+<test name="WebDriver Basics Test Will Be Executed here" parallel="true">
+<packages>
+<package name="WebDriverBasics.*"></package>
+</packages>
+</test>
+<!-- Test Ends Here -->
+</suite>

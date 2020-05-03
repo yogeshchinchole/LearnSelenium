@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My First Suite of Test NG" verbose="1">
+<!--  Test Suite Begins Here -->
+<test name="This is First Google Chrome Test" parallel="true">
+<packages>
+<package name="TestNGSssions.*"></package>
+</packages>
+</test>
+
+<test name="BrowsersOrientedChrome">
+<classes>
+<class name="TestNGSssions.MultiBrowersTest">
+<parameter name="brower" value="Chrome"></parameter>
+</class>
+</classes>
+</test>
+
+<test name="BrowsersOrientedFF">
+<classes>
+<class name="TestNGSssions.MultiBrowersTest">
+<parameter name="brower" value="Firefox"></parameter>
+</class>
+</classes>
+</test>
+
+<!--  Test Suite Ends Here -->
+</suite>

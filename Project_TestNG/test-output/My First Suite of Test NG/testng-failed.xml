@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My First Suite of Test NG]">
+  <test thread-count="5" name="This is First Google Chrome Test(failed)" parallel="methods">
+    <classes>
+      <class name="TestNGSssions.MultiBrowersTest">
+        <methods>
+          <include name="testinChrome"/>
+          <include name="testinFF"/>
+        </methods>
+      </class> <!-- TestNGSssions.MultiBrowersTest -->
+      <class name="TestNGSssions.OpenGoogleComTNG">
+        <methods>
+          <include name="test2"/>
+          <include name="b4"/>
+          <include name="cls"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- TestNGSssions.OpenGoogleComTNG -->
+    </classes>
+  </test> <!-- This is First Google Chrome Test(failed) -->
+</suite> <!-- Failed suite [My First Suite of Test NG] -->
